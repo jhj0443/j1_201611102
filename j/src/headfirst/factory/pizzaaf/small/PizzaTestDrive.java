@@ -10,5 +10,8 @@ public class PizzaTestDrive {
  
         pizza = chicagoStore.orderPizza("cheese");
         System.out.println("Joel ordered a " + pizza + "\n");
+        
+        pizza = chicagoStore.orderPizza("potato");
+        System.out.println("J ordered a " + pizza + "\n");
  }
 }

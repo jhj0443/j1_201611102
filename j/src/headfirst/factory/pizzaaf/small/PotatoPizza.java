@@ -1,14 +1,14 @@
 package headfirst.factory.pizzaaf.small;
 
-public class CheesePizza extends Pizza {
+public class PotatoPizza extends Pizza {
     PizzaIngredientFactory ingredientFactory;
  
-    public CheesePizza(PizzaIngredientFactory ingredientFactory) {
+    public PotatoPizza(PizzaIngredientFactory ingredientFactory) {
         this.ingredientFactory = ingredientFactory;
     }
     void prepare() {
         System.out.println("Preparing " + name);
         dough = ingredientFactory.createDough();
-        cheese = ingredientFactory.createCheese();
+        potato = ingredientFactory.createPotato();
     }
 }

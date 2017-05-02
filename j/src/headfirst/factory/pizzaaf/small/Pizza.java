@@ -4,6 +4,7 @@ public abstract class Pizza {
     String name;
     Dough dough;
     Cheese cheese;
+    Potato potato;
 
     abstract void prepare();
     void bake() {

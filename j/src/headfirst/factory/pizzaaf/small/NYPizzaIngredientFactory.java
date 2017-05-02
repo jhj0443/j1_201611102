@@ -7,4 +7,7 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     public Cheese createCheese() {
         return new MozzarellaCheese();
     }
+    public Potato createPotato() {
+        return new MashedPotato();
+    }
 }
